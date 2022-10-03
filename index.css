@@ -1,0 +1,230 @@
+*{
+    margin : 0;
+    padding : 1%;
+}
+.logo img{
+    width: 1.87rem;
+    height: 1.87rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+.navbar{
+    display: flex;
+}
+.nav-list{
+    width : 70%;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 2%;
+}
+.nav-list li {
+    list-style: none;
+    background-color : white;
+    display: flex;
+    padding: 2%;
+}
+.nav-list li a{
+   text-decoration: none;
+   color: black;
+   padding: 2%;
+   
+}
+.rightnav{
+    background-color: white; 
+    width: 30%;
+    height: 20%;
+    text-align: right;
+    display: flex;
+    padding-top: 3%;
+}
+.rightnav li {
+    list-style: none;
+    background-color : white;
+    display: flex;
+    padding: 4%;
+}
+#premium{
+    height: 2.37rem;
+    width: 5rem;
+    padding: 0.3rem;
+    border-radius: 0.125rem;
+    font-size: 1rem;
+    border: 0ch;
+    background-color: rgb(183, 181, 181);
+    text-decoration-color: aqua;
+}
+.btnsm:hover{
+    color: orange;
+}
+.rightnav img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+
+.container{
+    padding-top: 2%;
+    width: 71.87rem;
+    height: 65,625rem;
+    display: flex;
+    background-color: rgb(178, 174, 174);
+    border: 1px solid black;
+    margin: 0.187rem;
+    border-radius: 0.4rem;
+}
+.testuser{
+    width: 18.75rem;
+    height: 62.5rem;
+    background: white;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.testuserlogo img{
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+}
+.text{
+    display: flex;
+    vertical-align: top;
+    padding: 5%;
+}
+.profile{
+    width : 17.5rem;
+    border-radius: 5px;
+    background-color: rgb(187, 182, 182);
+}
+.normallogo img {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+}
+.solved{
+    border-radius: 1rem;
+    width: 3.125rem;
+}
+.boxes{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+}
+.box{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 7px;
+    width: 8rem;
+    height: max-content;
+}
+.sublogo{
+    display: flex;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+}
+.sublogo img {
+     width: 1.56rem;
+    height: 1.56rem;
+    justify-content: center;
+    vertical-align: top;
+}
+.Secondpart {
+    display: inline;
+    vertical-align: auto;
+    margin: 3px;
+}
+.thirdpart {
+    display: flex;
+    justify-content: center;
+    vertical-align: auto;
+    margin: 3px;
+}
+.Solvedproblem{
+    width: 21.875rem;
+    height: 12.5rem;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Badges{
+    width: 21.875rem;
+    height: 12.5rem;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Submission{
+    width: 43.75rem;
+    height: 46.25rem;
+    background: white;
+    border-radius: 10px;
+    margin: 2%;
+}
+.viewsubmit{
+    display: flex;
+    vertical-align: top;
+    padding: 15px;
+    margin: 10px;
+}
+.graybtn{
+    width: 90%;
+    background-color: rgb(167, 160, 160);
+    border: 0ch;
+    border-radius: 5px;
+}
+.whitebtn{
+    width: 90%;
+    height: 4rem;
+    background-color: white ;
+    border: 0ch;
+    border-radius: 5px;
+}
+.corner{
+    position: absolute;
+    padding: 0%;
+}
+.line{
+   border-left: 23px solid red;
+   display: flex;
+   background-color: rgb(238, 149, 143);
+}
+.linegre{
+    border-left: 25px solid rgb(23, 216, 36);
+    display: flex;
+    background-color: rgb(161, 217, 153);
+ }
+.lineyel{
+    border-left: 30px solid yellow;
+    display: flex;
+    background-color: rgb(193, 189, 116);
+ }
+ #hamburger-icon div{
+    width: 100%;
+    height: 3px;
+    background-color: antiquewhite;
+ }
+@media only screen and (max-width:600px) {
+    header nav {
+       display: none;
+    }
+    #hamburger-icon{
+        display:block;
+    }
+    .container{
+        display: inline;
+        border:none;
+    }
+    .thirdpart{
+        display: inline;
+    }
+    .Submission{
+        width: 21.75rem;
+    }
+}
